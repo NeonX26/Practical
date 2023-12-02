@@ -1,3 +1,5 @@
+Write a program to find the length of string and print its reverse.
+
 #include<stdio.h>
 #include<string.h>
 
