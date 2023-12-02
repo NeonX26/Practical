@@ -1,2 +1,2 @@
-DON'T SHARE 
-**IF YOU THINK YOU CAN CHEAT US, THEN THIS IS A MISTAKE**
+
+**"Please avoid sharing the file inappropriately. Thank you."**
