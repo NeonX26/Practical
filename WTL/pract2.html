@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Map Example</title>
+</head>
+<body>
+<h1>Click on the Image Below</h1>
+<img src="https://i13.wikimapia.org/?x=46481&y=29075&zoom=16&type=map&lng=0"
+alt="Clickable Image"
+usemap="#image-map" style="max-width: 100%;">
+<map name="image-map">
+<!-- Define clickable areas and their respective URLs -->
+<area shape="rect" coords="0,0,200,200" href="link1.html" alt="Link 1">
+<area shape="circle" coords="250,150,50" href="link2.html" alt="Link 2">
+<area shape="poly" coords="300,300,400,200,500,300" href="link3.html" alt="Link
+3">
+</map>
+<p>Click on the different areas of the image to go to various links.</p>
+</body>
+</html>
