@@ -3,3 +3,21 @@ Select CHAR(ASCII(ItemName)) as FirstChar from Item
 Select Concat(ItemName,' ',ItemName) from Item
 Select len(Concat(ItemName,' ',ItemName)) as len from Item
 select * from Item
+
+
+ALL functions 
+ASCII
+CHAR
+CHARINDEX
+CONCAT
+CONCAT_WS
+FORMAT
+DIFFERENCE
+LEFT
+LEN
+LOWER
+NCHAR
+REPLACE
+REPLICATE
+REVERSE
+SOUNDEX
