@@ -1,0 +1,34 @@
+/*
+Program No - 21
+Title - Write a program to find the largest element of
+an array using the function
+Name of the programmer - Pratik Ghute MC23F14F018
+*/
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+int maxarr(int arr[],int n)
+  {
+    int i,max=arr[0];
+    for(i=1;i<n;i++)
+      {
+	if(max<arr[i]) max=arr[i];
+      }
+    return max;
+  }
+int main()
+  {
+    int i,n, arr[100];
+    clrscr();
+    randomize();
+    printf("Enter size of array : ");
+    scanf("%d",&n);
+    printf("Array is\n");
+    for(i=0;i<n;i++)
+      {
+	arr[i]=random(100);
+	printf("%5d",arr[i]);
+      }
+    printf("\nMax element in the array is : %d",maxarr(arr,n));
+    getch();
+  }

@@ -1,0 +1,53 @@
+/*
+Program No - 12
+Title - Write a program to find the index of the first peak
+element in a given array.
+( Expected Output: The given array is: 5 12 13 20 16 19 11 7 25
+The index of first peak element in the array is: 3 )
+Name of the programmer - Pratik Ghute MC23F14F018
+*/
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+void getarray(int arr[],int n)
+  {
+    int i;
+    printf("Array is\n");
+    for(i=0;i<n;i++)
+      {
+	arr[i]=random(100);
+	printf("%5d",arr[i]);
+      }
+  }
+int main()
+  {
+    int arr[100],i,n,lar;
+    clrscr();
+    randomize();
+    printf("Enter the size of the array : ");
+    scanf("%d",&n);
+    getarray(arr,n);
+    lar=arr[0];
+    if(arr[0]>arr[1])
+      {
+	printf("\nFirst peak is : %d",arr[0]);
+	getch();
+	return 0;
+      }
+    for(i=1;i<n-1;i++)
+      {
+	if(lar<=arr[i])
+	  {
+	    if(arr[i]>arr[i+1])
+	      {
+		printf("\nFirst peak is : %d",arr[i]);
+		getch();
+		return 0;
+	      }
+	    lar = arr[i];
+	  }
+      }
+    if(arr[n-1]>lar) printf("\nFirst peak is : %d",arr[n-1]);
+    getch();
+    return 0;
+  }

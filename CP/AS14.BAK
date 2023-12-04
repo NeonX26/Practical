@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+  {
+    char *ch;
+    int i=0,alpha=0,num=0,sp=0;
+    clrscr();
+    printf("Enter a string: ");
+    gets(ch);
+    while(*(ch+i) != '\0')
+      {
+	if( (*(ch+i) >=65 && *(ch+i) <=90) ||
+	 (*(ch+i) >= 97 && *(ch+i) <= 122))
+	  {
+	    alpha++;
+	  }
+	else if(*(ch+i) >= 48 && *(ch+i) <= 57)
+	  {
+	    num++;
+	  }
+	else
+	  {
+	    sp++;
+	  }
+	i++;
+      }
+    printf("Alphabets : %d\n Numbers : %d\n Special charactes : %d",alpha,num,sp);
+    getch();
+    return 0;
+  }
