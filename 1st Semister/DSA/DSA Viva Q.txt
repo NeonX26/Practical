@@ -1,0 +1,86 @@
+DSA Viva Question & answer:
+Q. What is code optimization?
+Code optimization is the process of improving the efficiency and performance of a computer program or code. It involves making changes to the code to reduce its execution time, memory usage, and overall resource consumption. The goal of code optimization is to make the program run faster, use fewer system resources, and deliver better performance.
+
+Q.What is Memory Optimization?
+Memory optimization refers to the process of managing and optimizing the usage of computer memory in a program or system. It involves techniques and strategies to reduce the memory footprint of a program, minimize memory leaks, and improve overall memory efficiency.
+Memory optimization is important because excessive memory usage can lead to performance issues, such as slower execution times, increased disk swapping, and even crashes. By optimizing memory usage, programs can run more efficiently, use less system resources, and provide a better user experience.
+
+Q.How to implement array in stack
+To implement an array in a stack, you can follow these steps:
+1.Define a fixed-size array to store the elements of the stack. For example, you can declare an array of integers with a specific size:
+2.Keep track of the top of the stack using a variable. Initialize it to -1 to indicate an empty stack:
+3.Implement the push operation to add an element to the stack. Check if the stack is full before adding an element:
+4.Implement the pop operation to remove and return the top element from the stack. Check if the stack is empty before performing the pop operation:
+5.Implement the peek operation to return the top element without removing it. Check if the stack is empty before performing the peek operation:
+6.Implement other necessary operations like checking if the stack is empty or full, and displaying the elements of the stack.
+
+Q.Compare between stack and linked list
+Stack and linked list are both data structures commonly used in programming, but they have distinct characteristics and purposes. Here's a brief comparison between the two:
+
+Stack:
+- A stack is an abstract data type that follows the Last-In-First-Out (LIFO) principle.
+- It allows operations like push (add an element to the top) and pop (remove the top element).
+- Stack operations are efficient and have a constant time complexity of O(1).
+- It is typically implemented using an array or a linked list.
+- Stack is useful in scenarios where the order of elements matters, such as function call stack, expression evaluation, and backtracking algorithms.
+
+Linked List:
+- A linked list is a linear data structure where elements are stored in nodes that contain a value and a reference to the next node.
+- It allows efficient insertion and deletion operations at any position in the list.
+- Linked list operations have a time complexity of O(1) for insertion and deletion at the beginning, but O(n) for accessing or deleting elements at arbitrary positions.
+- Linked lists use dynamic memory allocation, allowing them to grow or shrink as needed.
+- Linked lists are useful when the size of the data structure needs to change dynamically, or when frequent insertions and deletions are required.
+
+Q.What is Precedence of Operators?
+The precedence of operators refers to the order in which different operators are evaluated in an expression. It determines the sequence in which operations are performed, ensuring that the expression is evaluated correctly.
+
+In programming languages, operators have different levels of precedence, which dictate the order in which they are evaluated. Operators with higher precedence are evaluated before operators with lower precedence. If operators have the same precedence, the evaluation order is determined by their associativity, which can be left-to-right or right-to-left.
+
+Here are some common precedence levels for operators, listed from highest to lowest:
+
+Parentheses: Operators enclosed in parentheses are evaluated first. Parentheses can also be used to override the default precedence and enforce a specific evaluation order.
+
+Exponentiation: Operators for exponentiation, such as ^ or **, are evaluated next.
+
+Multiplication, Division, and Modulo: Operators for multiplication (*), division (/), and modulo (%) are evaluated from left to right.
+
+Addition and Subtraction: Operators for addition (+) and subtraction (-) are evaluated from left to right.
+
+Comparison Operators: Operators for comparison, such as <, >, <=, >=, ==, and !=, are evaluated next.
+
+Logical Operators: Operators for logical operations, such as && (logical AND) and || (logical OR), are evaluated after comparison operators.
+
+Assignment Operators: Operators for assignment, such as =, +=, -=, *=, /=, and %=, are evaluated last.
+
+Q.What is DFS And BSF?
+BFS (Breadth-First Search) and DFS (Depth-First Search) are two common graph traversal algorithms used to explore or search through a graph or tree data structure.
+
+BFS:
+- BFS explores a graph by visiting all the vertices at the same level before moving to the next level.
+- It starts at a given vertex and explores all its neighboring vertices before moving to the next level of vertices.
+- BFS uses a queue data structure to keep track of the vertices to be visited.
+- It guarantees that the shortest path between the starting vertex and any other vertex is found.
+- BFS is typically implemented using a queue and has a time complexity of O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+
+DFS:
+- DFS explores a graph by visiting as far as possible along each branch before backtracking.
+- It starts at a given vertex and explores as deep as possible before backtracking to the previous vertex.
+- DFS uses a stack data structure (or recursion) to keep track of the vertices to be visited.
+- It may not guarantee finding the shortest path between two vertices.
+- DFS is typically implemented using a stack (or recursion) and has a time complexity of O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+
+Q.Graph Traversal method ?
+Graph traversal methods are algorithms used to visit and explore all the vertices or nodes of a graph in a systematic manner. The two commonly used graph traversal methods are:
+
+1. Breadth-First Search (BFS):
+   - BFS explores a graph by visiting all the vertices at the same level before moving to the next level.
+   - It starts at a given vertex and explores all its neighboring vertices before moving to the next level of vertices.
+   - BFS uses a queue data structure to keep track of the vertices to be visited.
+   - BFS guarantees that the shortest path between the starting vertex and any other vertex is found.
+
+2. Depth-First Search (DFS):
+   - DFS explores a graph by visiting as far as possible along each branch before backtracking.
+   - It starts at a given vertex and explores as deep as possible before backtracking to the previous vertex.
+   - DFS uses a stack data structure (or recursion) to keep track of the vertices to be visited.
+   - DFS may not guar_
