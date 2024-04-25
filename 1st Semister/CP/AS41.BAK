@@ -1,0 +1,68 @@
+/*
+Program No - 41
+Title - Write a program to accept details of 'n'
+employee(eno, ename, salary) and display the details
+of employee having highest salary using function
+Name of the programmer - Pratik Ghute MC23F14F018
+*/
+#include<stdio.h>
+#include<conio.h>
+struct Employee
+  {
+    int eno;
+    char ename[50];
+    int salary;
+  }emp[20];
+void empinput(int no)
+  {
+     printf("Emplyee number : %d",no+1);
+     printf("\nEnter Employee Name : ");
+     fflush(stdin);
+     gets(emp[no].ename);
+     emp[no].eno=no+101;
+     printf("Enter Employee Salary : ");
+     fflush(stdin);
+     scanf("%d",&emp[no].salary);
+  }
+void printemp(int n)
+  {
+    printf("\n=============\n");
+    printf("Employee Name   : %s\n",emp[n].ename);
+    printf("Emplyee Number  : %d\n",emp[n].eno);
+    printf("Employee Salary : %d\n",emp[n].salary);
+  }
+int maxSal(int n)
+  {
+    int max=emp[0].salary,i;
+    for(i=1;i<n;i++)
+      {
+	if(max<emp[i].salary)
+	  {
+	    max=emp[i].salary;
+	  }
+      }
+    return max;
+  }
+void main()
+  {
+    int n,i,max;
+    clrscr();
+    printf("Enter how many employee: ");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+      {
+	empinput(i);
+      }
+    printf("\n===================================");
+    printf("\nEmplyee data is recorded\n");
+    printf("\nEmployees with maximum salary are :\n");
+    max=maxSal(n);
+    for(i=0;i<n;i++)
+      {
+	 if(emp[i].salary==max)
+	   {
+	     printemp(i);
+	   }
+      }
+    getch();
+  }
