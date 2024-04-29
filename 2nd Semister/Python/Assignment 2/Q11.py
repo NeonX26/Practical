@@ -1,0 +1,1 @@
+# 11.	Find the first occurrence of a number in a list using a while loop:
