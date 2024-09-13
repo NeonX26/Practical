@@ -1,0 +1,7 @@
+D:\GitHub\Practical\3rd Semister\ASP.Net\Pract-1\Pract-1\obj\Debug\net8.0\PubTmp\Out\Pract-1.exe
+D:\GitHub\Practical\3rd Semister\ASP.Net\Pract-1\Pract-1\obj\Debug\net8.0\PubTmp\Out\appsettings.Development.json
+D:\GitHub\Practical\3rd Semister\ASP.Net\Pract-1\Pract-1\obj\Debug\net8.0\PubTmp\Out\appsettings.json
+D:\GitHub\Practical\3rd Semister\ASP.Net\Pract-1\Pract-1\obj\Debug\net8.0\PubTmp\Out\Pract-1.dll
+D:\GitHub\Practical\3rd Semister\ASP.Net\Pract-1\Pract-1\obj\Debug\net8.0\PubTmp\Out\Pract-1.deps.json
+D:\GitHub\Practical\3rd Semister\ASP.Net\Pract-1\Pract-1\obj\Debug\net8.0\PubTmp\Out\Pract-1.runtimeconfig.json
+D:\GitHub\Practical\3rd Semister\ASP.Net\Pract-1\Pract-1\obj\Debug\net8.0\PubTmp\Out\Pract-1.pdb
